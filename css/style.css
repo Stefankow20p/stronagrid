@@ -1,3 +1,37 @@
 body {
-    background-color: #111;
+    background-color: #dcbf8e;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #555;
+    padding: 10px;
+    font-size: 30px;
+}
+nav ul {
+    list-style-type: none;
+    grid-column: 3/-2;
+    display: flex;
+    justify-content: space-evenly;
+}
+nav li {
+    background-color: #dcbf8e;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav {
+    background: linear-gradient(180deg, #6d969c 0%, rgba(86, 116, 120, 0.77) 100%);
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+body section:nth-child(1) {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+#cart-icon {
+    grid-column: -1/-2;
 }
