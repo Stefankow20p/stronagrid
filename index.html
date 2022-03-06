@@ -4,13 +4,20 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
+        <title>Smaczna herbatka</title>
         <link rel="stylesheet" href="css/style.css" />
+        <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="manifest" href="/site.webmanifest" />
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+        <meta name="msapplication-TileColor" content="#da532c" />
+        <meta name="theme-color" content="#ffffff" />
     </head>
     <body>
         <section id="nav-bar">
             <nav>
-                <a href="#"><img src="img/logo.png" alt="baner przedstawiający szklankę z ciepłą, parującą herbatą" /></a>
+                <a href="#" id="logo"><img src="img/logo.png" alt="baner przedstawiający szklankę z ciepłą, parującą herbatą" /></a>
                 <ul>
                     <li><a href="#about">O Nas</a></li>
                     <li><a href="#shop">Oferta</a></li>
@@ -29,7 +36,6 @@
                 <div class="rel">
                     <div class="grad1"></div>
                     <div class="grad2"></div>
-                    <div class="grad3"></div>
                     <div class="grad4"></div>
                     <img
                         src="img/about1.png"
@@ -42,7 +48,6 @@
                     <div class="grad1"></div>
                     <div class="grad2"></div>
                     <div class="grad3"></div>
-                    <div class="grad4"></div>
                     <img src="img/about2.png" alt="zdjęcie przedstawiające szary kubek wypełniony zieloną herbatą" />
                 </div>
             </section>
@@ -61,33 +66,28 @@
                     biznesowych. Bierzemy pod uwagę gusta i preferencje, a wszystkie zestawy pakowane są w niepowtarzalne formy prezentowe.
                 </p>
             </div>
+            <img src="img/about3.png" alt="zdjęcie przedstawiające szary kubek wypełniony zieloną herbatą" />
         </section>
         <section id="shop">
             <div id="frame">
                 <div>
                     <img src="img/cynamonowa.jpg" alt="zdjęcie herbaty cynamonowej" /><input type="button" value="Dodaj do koszyka" />
                     <h2>Cynamonowa</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, nesciunt mollitia maxime quam atque vitae vero officiis neque
-                        iure provident?
-                    </p>
+                    <p>Pyszna herbata z zawierających wiele zdrowotnych właśniwości cynamonem. Idelanie nadaje się do picia o każdej porze dnia.</p>
                     <p>29.99 PLN</p>
                 </div>
                 <div>
-                    <img src="img/grzaniec.jpg" alt="zdjęcie grzańca" /><input type="button" value="Dodaj do koszyka" />
-                    <h2>Grzaniec</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, nesciunt mollitia maxime quam atque vitae vero officiis neque
-                        iure provident?
-                    </p>
+                    <img src="img/grzaniec.jpg" alt="zdjęcie herbaty waniliowej" /><input type="button" value="Dodaj do koszyka" />
+                    <h2>Waniliowa</h2>
+                    <p>Jest herbata wyselekcjonowana z dzikich odmian herbaty nazwanej Thea Assamica z dodatkiem wanilii.</p>
                     <p>25.99 PLN</p>
                 </div>
                 <div>
                     <img src="img/imbir.jpg" alt="zdjęcie herbaty imbirowej" /><input type="button" value="Dodaj do koszyka" />
                     <h2>Imbirowa</h2>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, nesciunt mollitia maxime quam atque vitae vero officiis neque
-                        iure provident?
+                        Ziołowa kompozycja stworzona na bazie trawy cytrynowej i cząstek imbiru z dodatkiem listków zielonej mate. Jest niezastąpiona
+                        dla osób poszukujących sporej dawki witamin, a także zdrowego pobudzenia.
                     </p>
                     <p>25.99 PLN</p>
                 </div>
@@ -95,8 +95,8 @@
                     <img src="img/jasminowa.jpg" alt="zdjęcie herbaty jaśminowej" /><input type="button" value="Dodaj do koszyka" />
                     <h2>Jaśminowa</h2>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, nesciunt mollitia maxime quam atque vitae vero officiis neque
-                        iure provident?
+                        Połączenie zielonej japońskiej herbaty z wonnymi kwiatami jaśminu. Wywar produkowany w krajach Azji zachodniej od ponad 1000
+                        lat.
                     </p>
                     <p>49.99 PLN</p>
                 </div>
@@ -104,8 +104,8 @@
                     <img src="img/mietowa.jpg" alt="zdjęcie herbaty miętowej" /><input type="button" value="Dodaj do koszyka" />
                     <h2>Miętowa</h2>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, nesciunt mollitia maxime quam atque vitae vero officiis neque
-                        iure provident?
+                        Doskonała herbatka polecana do sporządzania smacznych, aromatycznych naparów, które z powodzeniem mogą zastępować inne
+                        codzienne napoje. W wielu krajach ceniona za swoje lecznicze właściwości.
                     </p>
                     <p>19.99 PLN</p>
                 </div>
